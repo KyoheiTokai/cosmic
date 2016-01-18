@@ -1,0 +1,171 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PHOTOGALLERY｜田村写真館</title>
+<meta name="description" content="成人式、七五三、結婚式、入学、卒業など特別な日の記念写真は弘前市の田村写真館にお任せください！着付・ヘアーメイク 無料！証明写真も承っております！" />
+<meta name="keywords" content="弘前,成人式,七五三,結婚式,ウェディング,入学,卒業,記念写真,証明写真,田村写真館,写真スタジオ" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link rel="SHORTCUT ICON" href="img/favicon.ico">
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/respond.min.js"></script>
+<script>
+// pagetop
+$(function(){
+    // スクロールすると表示するエリア
+    var element = $('#pageTop');
+    // スクロール量の設定
+    var position = 400; // 単位：px
+    // スクロールすると表示するエリアを非表示
+    element.hide();
+    $(window).scroll(function(){
+        // スクロールすると表示させる
+        if ($(this).scrollTop() > position) {
+            $(element).fadeIn();
+        } else {
+            $(element).fadeOut();
+        }
+    });
+});
+$(function(){
+    // #で始まるアンカーをクリックした場合に処理
+    $('a[href^=#]').click(function() {
+        // スクロールの速度
+        var speed = 400;// ミリ秒
+        // アンカーの値取得
+        var href= $(this).attr("href");
+        // 移動先を取得
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        // 移動先を数値で取得
+        var position = target.offset().top;
+        // スムーススクロール
+        $('body,html').animate({scrollTop:position}, speed, 'swing');
+        return false;
+    });
+});
+</script>
+</head>
+<body class="gallery">
+<div id="container">
+    <header id="header">
+        <div id="header_top">
+            <p>成人式、七五三、結婚式、入学、卒業など特別な日の記念写真は弘前市の田村写真館にお任せください！</p>
+        </div>
+        <h1><a href="index.html"><img src="img/logo.png" alt="田村写真館｜弘前市の写真館・写真スタジオ" width="300" /></a></h1>
+        <div id="header_R">
+            <address>〒036-8355青森県弘前市元寺町61<br>
+            <a href="tel:0172-33-4572"><img src="img/tel.png" alt="弘前市の田村写真館電話番号0172-33-4572" /></a>
+            </address>
+            <ul class="headerList">
+                <li><a href="sitemap.html">サイトマップ</a></li>
+                <li><a href="information.html">アクセス</a></li>
+            </ul>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li class="home active"><a href="flow.html"><span>撮影の流れ</span></a></li>
+                <li class="nav-information"><a href="information.html"><span>店舗情報</span></a></li>
+                <li class="nav-menu"><a href="menu.html"><span>撮影シーン</span></a></li>
+                <li class="nav-price"><a href="price.html"><span>料金一覧</span></a></li>
+                <li class="nav-costume"><a href="gallery.html"><span>フォトギャラリー</span></a></li>
+                <li class="nav-form"><a href="form.html"><span>ご予約・お問い合わせ</span></a></li>
+            </ul>
+        </nav><!-- /#menu -->
+    </header><!-- /#header -->
+<div class="gridContainer clearfix">
+    <section id="contents">
+        <div class="breadcrumb">
+            <ol class="breadcrumb clearfix">
+                <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="index.html" itemprop="url"><span itemprop="title"><img src="img/home.png" alt="HOMEへ戻る">HOME</span></a></li>
+                <li>PHOTOGALLERY</li>
+            </ol>
+        </div><!-- .breadcrumb -->
+        <div id="conR">
+            <h2>PHOTOGALLERY</h2>
+            <h3>パークホテル前撮り-PHOTOGALLERY</h3>
+			<p><a href="wedding_gy1.html"><img src="img/park.png" alt="前撮りパークホテルPhotogallery" ></a></p>
+            <h3>前撮り-PHOTOGALLERY</h3>
+            <p><a href="wedding_gy2.html"><img src="img/fortohna.png" alt="前撮りフォルトーナPhotogallery" ></a></p>
+            <h3>挙式・披露宴スナップPHOTOGALLERY</h3>
+            <p><a href="wdsnap_gy.html"><img src="img/snap_gy.png" alt="挙式・披露宴スナップフォトギャラリーはこちら" ></a></p>
+            <h3>成人式-PHOTOGALLERY</h3>
+            <p><a href="cf_gallery.html"><img src="img/20th.png" alt="成人式フォトギャラリーはこちら" ></a></p> 
+        </div><!-- /#conR -->
+        <div id="conL">
+            <div class="submenu">
+                <h3>Menu</h3>
+                <h4>撮影シーン</h4>
+                <ul>
+                	<li><a href="wedding.html">ウェディング</a></li>
+                    <li><a href="comingofage.html">成人式</a></li>
+                    <li><a href="sevenfivethreefestival.html">七五三</a></li>
+                    <li><a href="graduation.html">入学・卒業</a></li>
+                    <li><a href="schoolalbum.html">学校アルバム</a></li>
+                </ul>
+            </div><!-- /.submenu -->
+            <div class="bnrR">
+                <div class="topNavi">
+                <div class="topNaviColumn">
+                    <h2>ご予約・お問い合わせ</h2>
+                    <div class="topNaviCon">
+                        <p>TEL：0172-33-4572<br>
+                            FAX：0172-33-4573<br>
+                            フリーダイヤル：0120-618-318<br>
+                            E-mail：<a href="mailto:cosmic@s6.dion.ne.jp">cosmic@s6.dion.ne.jp</a>
+                        </p>
+                    </div><!-- /.topNaviCon -->
+                </div><!-- /.topNaviColumn -->
+                </div><!-- /.topNavi -->
+            </div><!-- /.bnrR -->
+        </div><!-- /#conR -->
+    </section><!-- /#contents -->
+    <footer>
+        <div id="footMenu">
+            <ul>
+                <li><a href="flow.html">撮影の流れ</a></li>
+                <li><a href="information.html">店舗情報</a></li>
+                <li><a href="menu.html">撮影シーン</a></li>
+                <li><a href="price.html">料金一覧</a></li>
+                <li><a href="gallery.html">フォトギャラリー</a></li>
+                <li><a href="form.html">ご予約・お問い合わせ</a></li>
+            </ul>
+        </div><!-- /#footerMenu -->
+        <div id="footer">
+            <div class="copyright">Copyright &copy; 2016 PhotoStudio TAMURA All Rights Reserved.</div>
+        </div><!-- /#footer -->
+    </footer>
+</div><!-- gridContainer clearfix -->
+</div><!-- /#container -->
+<div id="pageTop">
+    <a href="#">▲</a>
+</div><!-- /#pageTop -->
+<div class="contact-box none">
+        <ul>
+            <li class="first-child odd"><a href="tel:0172334572">電話する</a></li>
+            <li class="last-child even"><a href="mailto:cosmic@s6.dion.ne.jp">メールする</a></li>
+        </ul>
+</div><!-- contact-box -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59943445-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
