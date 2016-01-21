@@ -57,7 +57,7 @@ transition: opacity 0.3s ease-out;
 }
 ol.breadcrumb li{
     float:left;
-}
+    }
 ol.breadcrumb li a{
     display: block;
     background: #EDEDED;
@@ -1877,7 +1877,6 @@ ul.sitemap02 {
     clear: both;
 }
 /* certification */
-
 .certification .point {
     float: left;
     width: 50%;
