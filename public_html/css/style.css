@@ -57,7 +57,7 @@ transition: opacity 0.3s ease-out;
 }
 ol.breadcrumb li{
     float:left;
-    }
+}
 ol.breadcrumb li a{
     display: block;
     background: #EDEDED;
