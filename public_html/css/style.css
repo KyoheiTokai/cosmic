@@ -671,8 +671,7 @@ ul.sitemap02 {
 }
 /* certification */
 .certification .point {
-    float: left;
-    margin: 0 0 10px 0;
+    height: 160px;
 }
 .certification .point p{
     float: left;
