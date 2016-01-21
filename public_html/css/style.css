@@ -1880,9 +1880,13 @@ ul.sitemap02 {
 .certification .point {
     float: left;
     width: 50%;
+    margin: 0 0 10px 0;
 }
 .certification .point p{
     float: left;
+}
+.certification .right-arrow{
+    margin: 40px -2px;
 }
 .certification th {
     text-align: left;
