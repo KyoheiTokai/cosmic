@@ -107,7 +107,6 @@ ol.breadcrumb a:hover:before {
 ol.breadcrumb li a:hover:after { border-left-color: #EEE0C5
 }
 
-
 /* モバイルレイアウト : 480 px およびそれ以下 */
 @media only screen and (max-width: 480px) {
 body {
@@ -136,6 +135,7 @@ h3 {
     color:#917700;
     line-height:1.8;
     border-bottom:1px dotted #917700;
+    clear: both;
 }
 h2 + h3 {
     margin-top:20px;
@@ -670,6 +670,16 @@ ul.sitemap02 {
     margin: 10px;
 }
 /* certification */
+.certification .point {
+    float: left;
+    margin: 0 0 10px 0;
+}
+.certification .point p{
+    float: left;
+}
+.certification .right-arrow{
+    margin: 40px 5px;
+}
 .certification th {
     text-align: left;
 }
@@ -1254,6 +1264,16 @@ ul.sitemap02 {
     padding: 0 0 0 70px;
 }
 /* certification */
+.certification .point {
+    float: left;
+    margin: 0 0 10px 0;
+}
+.certification .point p{
+    float: left;
+}
+.certification .right-arrow{
+    margin: 40px 5px;
+}
 .certification th {
     text-align: left;
 }
