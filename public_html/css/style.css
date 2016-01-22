@@ -195,14 +195,17 @@ dd {
     margin: 0 auto;
 }
 #header h1{
-    margin:10px 0;
+    margin:10px auto;
+    font-weight: normal;
+}
+#header .hLogo{
     text-align: center;
 }
 #header_top{
     margin: 0 auto;
     color: #988e82;
     font-size: 90%!important;
-    padding: 15px 0 0 0;
+    padding: 10px 0;
 }
 #header_L p{
     margin: 0 0 0 8px;
@@ -211,7 +214,7 @@ dd {
     color: #745536;
     line-height: 1.7em;
     text-align: center;
-    margin: 0 0 10px 0;
+    margin: 10px 0;
 }
 .headerList,.breadcrumb {
     display: none;
@@ -802,12 +805,16 @@ dd {
     margin: 0 auto;
 }
 #header h1{
+    font-weight: normal;
+    float: left;
+}
+#header .hLogo{
     float: left;
 }
 #header_top{
     color: #988e82;
     font-size: 90%!important;
-    padding: 15px 0 8px 0;
+    padding:8px 0;
 }
 #header_L p{
     margin: 0 0 0 8px;
@@ -1395,15 +1402,12 @@ dd {
 }
 /* ========HEADER CUSTOMIZE======== */
 #header h1 {
-    margin:12px 0 0 0;
-    color:#770000;
+    font-weight: normal;
     float: left;
 }
-#header h1 a {
-    color:#770000;
-}
-#header h1 a:hover {
-    color:#770000;
+#header .hLogo {
+    margin: 12px 0 0 0;
+    float: left;
 }
 #slide{
     clear: both;
@@ -1423,7 +1427,7 @@ dd {
 #header_top{
     color: #988e82;
     font-size: 90%!important;
-    padding: 8px 0 0 0;
+    padding: 10px 0;
 }
 #header_L p{
     margin: 0 0 0 8px;
