@@ -8,19 +8,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>What's new｜田村写真館</title>
-<meta name="description" content="成人式、七五三、結婚式、入学、卒業など特別な日の記念撮影を行う弘前市の田村写真館の最新情報をお届けします。" />
-<meta name="keywords" content="写真スタジオ,写真館,田村写真館,最新情報,news" />
+<title>卒業式フォトギャラリー｜田村写真館</title>
+<meta name="description" content="成人式、七五三、結婚式、入学、卒業など特別な日の記念撮影を行う田村写真館の成人式フォトギャラリーです。" />
+<meta name="keywords" content="弘前,成人式,七五三,結婚式,ウェディング,入学,卒業,記念写真,証明写真,田村写真館,写真スタジオ" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <link rel="SHORTCUT ICON" href="img/favicon.ico">
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/lightbox.css" rel="stylesheet" type="text/css" />
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="js/respond.min.js"></script>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
 <script>
 // pagetop
 $(function(){
@@ -61,11 +63,9 @@ $(function(){
 <div id="container">
     <header id="header">
         <div id="header_top">
-            <h1>What’s new｜田村写真館｜成人式、七五三、結婚式、入学、卒業など特別な日の記念写真は弘前市の田村写真館にお任せください！</h1>
+            <h1>卒業式フォトギャラリー｜田村写真館｜成人式、七五三、結婚式、入学、卒業など特別な日の記念写真は弘前市の田村写真館にお任せください！</h1>
         </div>
-        <p class="hLogo">
-            <a href="index.html"><img src="img/logo.png" alt="田村写真館｜弘前市の写真館・写真スタジオ" width="300" /></a>
-        </p>
+        <p class="hLogo"><a href="index.html"><img src="img/logo.png" alt="田村写真館｜弘前市の写真館・写真スタジオ" width="300" /></a></p>
         <div id="header_R">
             <address>〒036-8355青森県弘前市元寺町61<br>
             <a href="tel:0172-33-4572"><img src="img/tel.png" alt="弘前市の田村写真館電話番号0172-33-4572" /></a>
@@ -90,31 +90,27 @@ $(function(){
     <section id="contents">
         <div class="breadcrumb">
             <ol class="breadcrumb clearfix">
-                <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="index.html" itemprop="url"><img src="img/home.png" alt="HOMEへ戻る"><span itemprop="title">HOME</span></a></li>
-                <li>What's new</li>
+                <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="index.html" itemprop="url"><span itemprop="title"><img src="img/home.png" alt="HOMEへ戻る">HOME</span></a></li>
+                <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="menu.html" itemprop="url"><span itemprop="title">撮影シーン</span></a></li>
+                <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="graduation.html" itemprop="url"><span itemprop="title">卒業式</span></a></li>
+                <li>卒業式PHOTOGALLERY</li>
             </ol>
         </div><!-- .breadcrumb -->
         <div id="conR">
-            <h2>What's new</h2>
-            <h3><img src="img/new.png" alt="new">2015-03-31</h3>
-            <p>東奥新報に掲載されました！学校アルバムページにメディア掲載情報を追加しました。<br>
-            <a class="red" href="schoolalbum.html">>>詳しくはこちら</a></p>
-            <h3>2015-03-09</h3>
-            <p>陸奥新報に掲載されました！<br>
-            <a href="http://www.mutusinpou.co.jp/news/2015/03/35441.html" class="red" target="_blank">>>詳しくはこちら</a></p>
-            <h3>2015-02-26</h3>
-            <p>全国約9600校の中から学校生活部門で最優秀賞を頂きました。<br>
-            <a href="schoolalbum.html" class="red">>>詳しくはこちら</a></p>
-            <h3>2015-02-18</h3>
-            <p>ウェディングフォトギャラリーを追加しました。<br>
-            結婚式の前撮りをお考えの方は田村写真館へ。<br>
-            <a href="gallery.html" class="red">>>詳しくはこちら</a></p>
-            <h3>2015-02-15</h3>
-            <p>弘前プラザホテルさんにてブライダルフェア開催しております。<br>
-            婚礼アルバムも展示しておりますので、前撮りをお考えの方は是非、田村写真館へ。<br>
-            ブライダルフェアの詳しい日程は<a href="http://imagine-wedding.jp/hirosaki_plaza/fair/" class="red">プラザホテルさん</a>HPへどうぞ。</p>
-			<h3>2015-02-14</h3>
-            <p>ホームページリニューアル致しました。今後とも田村写真館をよろしくお願いします。</p>
+            <h2 class="cfgy_h2">卒業式PHOTOGALLERY</h2>
+            <section class="gy_box">
+                <div class="gy_contents_box gy_boxR"><a href="img/gr_gallery/gr_gallery01.jpg" rel="lightbox[gr]" ><img src="img/gr_gallery/gr_gallery01_s.jpg" alt="弘前市の田村写真館｜スタジオでの卒業撮影"></a></div>
+                <div class="gy_contents_box gy_boxR"><a href="img/gr_gallery/gr_gallery02.jpg" rel="lightbox[gr]" ><img src="img/gr_gallery/gr_gallery02_s.jpg" alt="弘前市の田村写真館｜スタジオでの卒業撮影"></a></div>
+            </section>
+            <h3>ご予約・お問い合わせ</h3>
+                <p>●お電話の場合<br>
+                    お電話の際に希望の日時、撮影時のご希望等を<br>
+                    スタッフにお伝えいただけますとスムーズです。</p>
+                <p><a href="tel:0172334572"><img src="img/tel.png" alt="弘前市の田村写真館電話番号0172334572" /></a></p>
+                <p>営業時間：09:00～19:00</p>
+                <p>●メールの場合</p>
+                <p>下記メールアドレス宛にお問い合わせ下さい。<br>
+                    E-mail：<a href="mailto:cosmic@s6.dion.ne.jp">cosmic@s6.dion.ne.jp</a></p>
         </div><!-- /#conL -->
         <div id="conL">
             <div class="submenu">
@@ -130,32 +126,25 @@ $(function(){
                 </ul>
             </div><!-- /.submenu -->
             <div class="subbanner">
-                <ul><li><a href="wedding_gy1.html"><img src="img/wd_gy.png" alt="ウェディングフォトギャラリー"></a></li>
+                <ul><li><a href="gallery.html"><img src="img/wd_gy.png" alt="ウェディングフォトギャラリー"></a></li>
                     <li><a href="cf_gallery.html"><img src="img/20th_gy.png" alt="成人フォトギャラリー"></a></li>
-                    <li><a href="checklist.pdf"><img src="img/checklist.png" alt="成人式お持込・持ち物チェックリスト"></a></li>
+                    <li><a href="checklist.pdf" target="_blank"><img src="img/checklist.png" alt="成人式お持込・持ち物チェックリスト"></a></li>
                 </ul>
             </div><!-- subbanner -->
             <div class="bnrR">
                 <div class="topNavi">
-                <div class="topNaviColumn">
-                    <h2>ご予約・お問い合わせ</h2>
-                    <div class="topNaviCon">
-                        <p>TEL：0172-33-4572<br>
-                            FAX：0172-33-4573<br>
-                            フリーダイヤル：0120-618-318<br>
-                            E-mail：<a href="mailto:cosmic@s6.dion.ne.jp">cosmic@s6.dion.ne.jp</a>
-                        </p>
-                    </div><!-- /.topNaviCon -->
-                </div><!-- /.topNaviColumn -->
-        </div><!-- /.topNavi -->
+                    <div class="topNaviColumn">
+                        <h2>ご予約・お問い合わせ</h2>
+                        <div class="topNaviCon">
+                            <p>TEL：0172-33-4572<br>
+                                FAX：0172-33-4573<br>
+                                フリーダイヤル：0120-618-318<br>
+                                E-mail：<a href="mailto:cosmic@s6.dion.ne.jp">cosmic@s6.dion.ne.jp</a>
+                            </p>
+                        </div><!-- /.topNaviCon -->
+                    </div><!-- /.topNaviColumn -->
+                </div><!-- /.topNavi -->
             </div><!-- /.bnrR -->
-            <!--
-            <div class="bnrR">
-                <ul>
-                    <li><a href="index.html"><img src="img/bnr_r.jpg" alt="" /></a></li>
-                    <li><a href="index.html"><img src="img/bnr_r.jpg" alt="" /></a></li>
-                </ul>
-            </div>--><!-- /.bnrR -->
         </div><!-- /#conR -->
     </section><!-- /#contents -->
     <footer>
