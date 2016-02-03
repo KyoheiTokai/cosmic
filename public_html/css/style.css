@@ -285,6 +285,10 @@ nav ul .nav-form a{
     clear:both;
     padding:10px 0 0;
 }
+#conR {
+    margin: 0 auto;
+    width: 96%;
+}
 #footer {
     clear:both;
     margin: 0px auto 65px;
@@ -428,7 +432,7 @@ nav ul .nav-form a{
 .first {
     margin-top:0;
 }
-#conR p,.price #conR dt{
+.price #conR dt{
 	margin: 0 10px;
 }
 /* MENU BOX CUSTOMIZE */
@@ -570,10 +574,12 @@ nav ul .nav-form a{
 .flow #conR h4{
 }
 .flow #conR p{
-    margin: 10px;
+    margin: 10px
+
 }
 .flow #conR .num01{
-    background: url(../img/num01.png) no-repeat;
+    background: url(../img/num01.png) no-repeat
+
     padding: 0 0 0 70px;
     margin: 10px
 }
@@ -674,7 +680,10 @@ ul.sitemap02 {
 }
 /* certification */
 .certification .point {
-    height: 160px;
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
 }
 .certification .point p{
     float: left;
