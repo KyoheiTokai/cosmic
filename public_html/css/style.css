@@ -1739,7 +1739,7 @@ nav#menu li a{
     margin: 0 0 20px 0;
 }
 #pageTop a {
-     width: 60px;
+    width: 60px;
     height: 38px;
     background: #EEE;
     border: 1px solid #DDD;
@@ -1747,7 +1747,8 @@ nav#menu li a{
     -moz-border-radius: 70px;
     -webkit-border-radius: 70px;
     color: #111;
-    padding: 20px 20px;
+    padding: 10px 14px;
+    font-size: 140%;
 }
 .none {
     display: none;
