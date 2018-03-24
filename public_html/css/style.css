@@ -438,10 +438,9 @@ nav ul .nav-form a{
 /* MENU BOX CUSTOMIZE */
 .menubox {
     overflow:hidden;
-    margin:10px 5px;
-    padding:10px;
-    border:10px solid #eee;
     float:left;
+    width: 100%;
+    margin: 1% 0;
 }
 
 .menubox h4 {
@@ -449,8 +448,7 @@ nav ul .nav-form a{
 }
 
 .menubox img {
-    float:left;
-    margin: 0 10px 0 0;
+    width: 100%;
 }
 /* ========subbanner======== */
 .subbanner {
@@ -1080,12 +1078,10 @@ nav ul .nav-form a{
 }
 /* MENU BOX CUSTOMIZE */
 .menubox {
-    width:90%;
-    overflow:hidden;
-    margin:10px 5px;
-    padding:10px;
-    border:10px solid #eee;
-    float:left;
+    width: 46%;
+    overflow: hidden;
+    margin: 10px 5px 5px 5px;
+    float: left;
 }
 /* ========FOOTMENU CUSTOMIZE======== */
 #footMenu ul {
@@ -1680,12 +1676,11 @@ nav#menu li a{
 }
 /* MENU BOX CUSTOMIZE */
 .menubox {
-    background: url(../img/f_01.png) no-repeat;
     background-size: 100%;
-    width: 250px;
+    width: 280px;
     overflow: hidden;
     margin: 5px;
-    padding: 25px 15px 40px 25px;
+    padding: 10px 10px 5px 10px;
     float: left;
 }
 .menubox h4 {
